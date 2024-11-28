@@ -47,6 +47,39 @@
     "expenditure_type": "current",
     "quantity": 1999
   },
+
+  {
+    "year": 2023,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 600
+  },
+  {
+    "year": 2023,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1542
+  },
+  {
+    "year": 2023,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 8800
+  },
+  {
+    "year": 2023,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity":8292
+  },
   {
     "year": 2022,
     "type": "target",
@@ -96,6 +129,38 @@
     "quantity": 1870
   },
   {
+    "year": 2022,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 800
+  },
+  {
+    "year": 2022,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1041
+  },
+  {
+    "year": 2022,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 14000
+  },
+  {
+    "year": 2022,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity":8634
+  },
+  {
     "year": 2021,
     "type": "target",
     "policy": "new_build",
@@ -143,7 +208,7 @@
     "expenditure_type": "current",
     "quantity": 2711
   },
-    {
+  {
     "year": 2021,
     "type": "target",
     "policy": "RAS",
