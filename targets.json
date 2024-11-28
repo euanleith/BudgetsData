@@ -81,6 +81,22 @@
     "quantity":8292
   },
   {
+    "year": 2023,
+    "type": "target",
+    "policy": "affordable",
+    "domain": "social",
+    "expenditure_type": "both",
+    "quantity": 5500
+  },
+  {
+    "year": 2023,
+    "type": "actual",
+    "policy": "affordable",
+    "domain": "social",
+    "expenditure_type": "both",
+    "quantity": 4000
+  },
+  {
     "year": 2022,
     "type": "target",
     "policy": "new_build",
@@ -159,6 +175,22 @@
     "domain": "social",
     "expenditure_type": "current",
     "quantity":8634
+  },
+  {
+    "year": 2022,
+    "type": "target",
+    "policy": "affordable",
+    "domain": "social",
+    "expenditure_type": "both",
+    "quantity": 4000
+  },
+  {
+    "year": 2022,
+    "type": "actual",
+    "policy": "affordable",
+    "domain": "social",
+    "expenditure_type": "both",
+    "quantity": 1757
   },
   {
     "year": 2021,
