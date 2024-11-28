@@ -1,0 +1,138 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/euanleith/BudgetsData/refs/heads/main/targets.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "social_new_build_actual": "number",
+        "social_acquisition_actual": "number",
+        "social_leasing_actual": "number",
+        "social_new_build_target": "number",
+        "social_acquisition_target": "number",
+        "social_leasing_target": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.social_new_build_target + datum.social_acquisition_target + datum.social_leasing_target",
+      "as": "total_target"
+    },
+    {
+      "calculate": "datum.social_new_build_actual + datum.social_acquisition_actual + datum.social_leasing_actual",
+      "as": "total_actual"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "bar",
+      "title": "Social Housing Target vs. Actual",
+      "transform": [
+        {
+          "calculate": "'Actual'", "as": "label"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "title": "Year",
+          "axis": {
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "total_actual",
+          "type": "quantitative",
+          "title": "Quantity",
+          "axis": {
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "label",
+          "legend": {
+            "title": ""
+          }
+        },
+        "size": {
+          "value": 15
+        }
+      }
+    },
+    {
+      "mark": "line",
+      "transform": [
+        {
+          "calculate": "'Target'", 
+          "as": "label"
+        },
+        {
+          "filter": "datum.total_target > 0" 
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "total_target",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "encoding": {
+        "x": { 
+          "field": "date", 
+          "type": "temporal", 
+        },
+      },
+      "data": {
+        "values": [
+          {"date": "1 Jul 2007", "label": "2008 Crisis"},
+          {"date": "1 Jul 2019", "label": "Covid-19"}
+        ],
+        "format": {
+          "parse": {"date": "utc:'%d %b %Y'"}
+        }
+      },
+      "layer": [
+        {
+          "mark": { 
+            "type": "rule", 
+            "color": "grey",
+            "opacity": 0.7,
+            "strokeDash": [4,2]
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "baseline": "line-top",
+            "dx": -5,
+            "dy": -93,
+            "text": {
+              "expr": "datum.label"
+            },
+            "size": 10
+          }
+        }
+      ]
+    }
+  ],
+  "width": 500
+}
