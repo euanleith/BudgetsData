@@ -1,1 +1,962 @@
-[{"year": 2023, "type": "social_new_build_target", "value": 9100}, {"year": 2023, "type": "social_new_build_actual", "value": 8110}, {"year": 2023, "type": "social_acquisition_target", "value": 200), {"year": 2023, "type": "social_acquisition_actual", "value": 1830} {"year": 2023, "type": "social_leasing_target", "value": 0}, {"year": 2023, "type": "social_leasing_actual", "value": 1999}]
+[
+  {
+    "year": 2023,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 9100
+  },
+  {
+    "year": 2023,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 8110
+  },
+  {
+    "year": 2023,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 200
+  },
+  {
+    "year": 2023,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1830
+  },
+  {
+    "year": 2023,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2023,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1999
+  },
+  {
+    "year": 2022,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 9000
+  },
+  {
+    "year": 2022,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 7433
+  },
+  {
+    "year": 2022,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 200
+  },
+  {
+    "year": 2022,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 960
+  },
+  {
+    "year": 2022,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2022,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1870
+  },
+  {
+    "year": 2021,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 9500
+  },
+  {
+    "year": 2021,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5202
+  },
+  {
+    "year": 2021,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 800
+  },
+  {
+    "year": 2021,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1270
+  },
+  {
+    "year": 2021,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 2450
+  },
+  {
+    "year": 2021,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 2711
+  },
+  {
+    "year": 2020,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 7736
+  },
+  {
+    "year": 2020,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5073
+  },
+  {
+    "year": 2020,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 800
+  },
+  {
+    "year": 2020,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1314
+  },
+  {
+    "year": 2020,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 2631
+  },
+  {
+    "year": 2020,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1440
+  },
+  {
+    "year": 2019,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 6545
+  },
+  {
+    "year": 2019,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5771
+  },
+  {
+    "year": 2019,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1325
+  },
+  {
+    "year": 2019,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2772
+  },
+  {
+    "year": 2019,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 2130
+  },
+  {
+    "year": 2019,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1161
+  },
+  {
+    "year": 2018,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 4969
+  },
+  {
+    "year": 2018,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 4251
+  },
+  {
+    "year": 2018,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 900
+  },
+  {
+    "year": 2018,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2610
+  },
+  {
+    "year": 2018,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 2000
+  },
+  {
+    "year": 2018,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1001
+  },
+  {
+    "year": 2017,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 3200
+  },
+  {
+    "year": 2017,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 4054
+  },
+  {
+    "year": 2017,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1250
+  },
+  {
+    "year": 2017,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2214
+  },
+  {
+    "year": 2017,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 600
+  },
+  {
+    "year": 2017,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 827
+  },
+  {
+    "year": 2016,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2260
+  },
+  {
+    "year": 2016,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2977
+  },
+  {
+    "year": 2016,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1755
+  },
+  {
+    "year": 2016,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1250
+  },
+  {
+    "year": 2016,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 225
+  },
+  {
+    "year": 2016,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 792
+  },
+  {
+    "year": 2015,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1400
+  },
+  {
+    "year": 2015,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 476
+  },
+  {
+    "year": 2015,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 0
+  },
+  {
+    "year": 2015,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1104
+  },
+  {
+    "year": 2015,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 3000
+  },
+  {
+    "year": 2015,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1477
+  },
+  {
+    "year": 2014,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 500
+  },
+  {
+    "year": 2014,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 459
+  },
+  {
+    "year": 2014,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 0
+  },
+  {
+    "year": 2014,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 183
+  },
+  {
+    "year": 2014,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2014,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1062
+  },
+  {
+    "year": 2013,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 400
+  },
+  {
+    "year": 2013,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 504
+  },
+  {
+    "year": 2013,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 0
+  },
+  {
+    "year": 2013,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 253
+  },
+  {
+    "year": 2013,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2013,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1042
+  },
+  {
+    "year": 2012,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2012,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1040
+  },
+  {
+    "year": 2012,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2012,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 351
+  },
+  {
+    "year": 2012,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2012,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1259
+  },
+  {
+    "year": 2011,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2011,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1239
+  },
+  {
+    "year": 2011,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2011,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 325
+  },
+  {
+    "year": 2011,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2011,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1193
+  },
+  {
+    "year": 2010,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2010,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2081
+  },
+  {
+    "year": 2010,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2010,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 850
+  },
+  {
+    "year": 2010,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2010,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 866
+  },
+  {
+    "year": 2009,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2009,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5373
+  },
+  {
+    "year": 2009,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2009,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 727
+  },
+  {
+    "year": 2009,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2009,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 437
+  },
+  {
+    "year": 2008,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2008,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 4905
+  },
+  {
+    "year": 2008,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2008,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 787
+  },
+  {
+    "year": 2008,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2008,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2007,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2007,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 6882
+  },
+  {
+    "year": 2007,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2007,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 2002
+  },
+  {
+    "year": 2007,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2007,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2006,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2006,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5208
+  },
+  {
+    "year": 2006,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2006,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 1153
+  },
+  {
+    "year": 2006,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2006,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2005,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2005,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5559
+  },
+  {
+    "year": 2005,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2005,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 918
+  },
+  {
+    "year": 2005,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2005,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  },
+  {
+    "year": 2004,
+    "type": "target",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2004,
+    "type": "actual",
+    "policy": "new_build",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 5146
+  },
+  {
+    "year": 2004,
+    "type": "target",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": -1
+  },
+  {
+    "year": 2004,
+    "type": "actual",
+    "policy": "acquisition",
+    "domain": "social",
+    "expenditure_type": "capital",
+    "quantity": 971
+  },
+  {
+    "year": 2004,
+    "type": "target",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": -1
+  },
+  {
+    "year": 2004,
+    "type": "actual",
+    "policy": "leasing",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 0
+  }
+]
