@@ -1,0 +1,168 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
+  },
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/euanleith/BudgetsData/refs/heads/main/targets.json",
+    "format": {
+      "type": "json",
+      "parse": {
+        "year": "date:'%Y'"
+      }
+    }
+  },
+  "params": [
+    {
+      "name": "ShowTarget",
+      "bind": {
+        "input": "checkbox"
+      },
+      "value": true
+    }
+  ],
+  "repeat": ["type", "policy", "expenditure_type", "domain"],
+  "columns": 2,
+  "spec": {
+    "layer": [
+      {
+        "mark": "bar",
+        "transform": [
+          {
+            "filter": "datum.type == 'actual'"
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "temporal",
+            "timeUnit": "year",
+            "title": "Year",
+            "axis": {
+              "grid": false
+            }
+          },
+          "y": {
+            "field": "quantity",
+            "type": "quantitative",
+            "title": "Quantity",
+            "axis": {
+              "grid": false
+            }
+          },
+          "color": {
+            "field": {"repeat": "repeat"}
+          },
+          "opacity": {
+            "condition": {
+              "param": "ShowTarget",
+              "value": 0.7
+            },
+            "value": 1
+          },
+          "order": {}, // todo idk why this works
+          "size": {
+            "value": 18
+          }
+        }
+      },
+      {
+        "mark": {
+          // todo each target group line should start at the bottom of the corresonding actual group bar...
+          "type": "area",
+          "line": true,
+          "fill": "false"
+        },
+        "transform": [
+          {
+            "filter": "datum.type == 'target'"
+          },
+          {
+            "calculate": "'Target'", 
+            "as": "label"
+          },
+          {
+            "filter": "datum.quantity > 0" 
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "temporal",
+            "timeUnit": "year"
+          },
+          "y": {
+            "field": "quantity",
+            "type": "quantitative",
+            "title": "Quantity",
+            "axis": {
+              "grid": false
+            }
+          },
+          "color": {
+            "field": {"repeat": "repeat"}
+          },
+          "opacity": {
+            "condition": {
+              "param": "ShowTarget",
+              "value": 1
+            },
+            "value": 0
+          }
+        }
+      },
+      {
+        "encoding": {
+          "x": { 
+            "field": "date", 
+            "type": "temporal" 
+          },
+        },
+        "data": {
+          "values": [
+            {"date": "1 Jan 2008", "label": "2008 Crisis"},
+            {"date": "1 Jan 2020", "label": "Covid-19"}
+          ],
+          "format": {
+            "parse": {"date": "utc:'%d %b %Y'"}
+          }
+        },
+        "layer": [
+          {
+            "mark": { 
+              "type": "rule", 
+              "color": "grey",
+              "opacity": 0.7,
+              "strokeDash": [4,2]
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "line-top",
+              "dx": -5,
+              "dy": -100,
+              "text": {
+                "expr": "datum.label"
+              },
+              "size": 10
+            }
+          }
+        ]
+      }
+    ],
+    "width": 400
+  }
+}
+// todo hap/ras for 2022/2023
+// todo is there a relationship between the increase in hap and the decrease in those welfare payments from 2008?
