@@ -34,7 +34,7 @@
   "layer": [
     {
       "mark": "bar",
-      "title": "Social Housing Target vs. Actual",
+      "title": "Social Housing Construction - Target vs. Actual",
       "transform": [
         {
           "calculate": "'Actual'", "as": "label"
@@ -44,13 +44,14 @@
         "x": {
           "field": "year",
           "type": "temporal",
+          "timeUnit": "year",
           "title": "Year",
           "axis": {
             "grid": false
           }
         },
         "y": {
-          "field": "total_actual",
+          "field": "social_new_build_actual",
           "type": "quantitative",
           "title": "Quantity",
           "axis": {
@@ -64,8 +65,8 @@
           }
         },
         "size": {
-          "value": 15
-        }
+          "value": 18
+        },
       }
     },
     {
@@ -85,7 +86,7 @@
           "type": "temporal"
         },
         "y": {
-          "field": "total_target",
+          "field": "social_new_build_target",
           "type": "quantitative"
         },
         "color": {
@@ -102,8 +103,8 @@
       },
       "data": {
         "values": [
-          {"date": "1 Jul 2007", "label": "2008 Crisis"},
-          {"date": "1 Jul 2019", "label": "Covid-19"}
+          {"date": "1 Jan 2008", "label": "2008 Crisis"},
+          {"date": "1 Jan 2020", "label": "Covid-19"}
         ],
         "format": {
           "parse": {"date": "utc:'%d %b %Y'"}
