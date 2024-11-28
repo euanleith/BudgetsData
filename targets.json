@@ -143,6 +143,38 @@
     "expenditure_type": "current",
     "quantity": 2711
   },
+    {
+    "year": 2021,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 800
+  },
+  {
+    "year": 2021,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1034
+  },
+  {
+    "year": 2021,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1500
+  },
+  {
+    "year": 2021,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 13095
+  },
   {
     "year": 2020,
     "type": "target",
@@ -190,6 +222,38 @@
     "domain": "social",
     "expenditure_type": "current",
     "quantity": 1440
+  },
+  {
+    "year": 2020,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 600
+  },
+  {
+    "year": 2020,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 913
+  },
+  {
+    "year": 2020,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 15750
+  },
+  {
+    "year": 2020,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 15885
   },
   {
     "year": 2019,
@@ -240,6 +304,38 @@
     "quantity": 1161
   },
   {
+    "year": 2019,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 600
+  },
+  {
+    "year": 2019,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1043
+  },
+  {
+    "year": 2019,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 16760
+  },
+  {
+    "year": 2019,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 17025
+  },
+  {
     "year": 2018,
     "type": "target",
     "policy": "new_build",
@@ -286,6 +382,38 @@
     "domain": "social",
     "expenditure_type": "current",
     "quantity": 1001
+  },
+  {
+    "year": 2018,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 600
+  },
+  {
+    "year": 2018,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 755
+  },
+  {
+    "year": 2018,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 17000
+  },
+  {
+    "year": 2018,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 17926
   },
   {
     "year": 2017,
@@ -336,6 +464,38 @@
     "quantity": 827
   },
   {
+    "year": 2017,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1000
+  },
+  {
+    "year": 2017,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 890
+  },
+  {
+    "year": 2017,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 15000
+  },
+  {
+    "year": 2017,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 17916
+  },
+  {
     "year": 2016,
     "type": "target",
     "policy": "new_build",
@@ -382,6 +542,38 @@
     "domain": "social",
     "expenditure_type": "current",
     "quantity": 792
+  },
+  {
+    "year": 2016,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1000
+  },
+  {
+    "year": 2016,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1256
+  },
+  {
+    "year": 2016,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 12000
+  },
+  {
+    "year": 2016,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 12075
   },
   {
     "year": 2015,
@@ -432,6 +624,22 @@
     "quantity": 1477
   },
   {
+    "year": 2015,
+    "type": "actual",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 1836
+  },
+  {
+    "year": 2015,
+    "type": "actual",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 5680
+  },
+  {
     "year": 2014,
     "type": "target",
     "policy": "new_build",
@@ -478,6 +686,22 @@
     "domain": "social",
     "expenditure_type": "current",
     "quantity": 1062
+  },
+  {
+    "year": 2014,
+    "type": "target",
+    "policy": "RAS",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 2173
+  },
+  {
+    "year": 2014,
+    "type": "target",
+    "policy": "HAP",
+    "domain": "social",
+    "expenditure_type": "current",
+    "quantity": 485
   },
   {
     "year": 2013,
@@ -528,12 +752,12 @@
     "quantity": 1042
   },
   {
-    "year": 2012,
+    "year": 2013,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 2875
   },
   {
     "year": 2012,
@@ -545,27 +769,11 @@
   },
   {
     "year": 2012,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2012,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 351
-  },
-  {
-    "year": 2012,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2012,
@@ -576,12 +784,12 @@
     "quantity": 1259
   },
   {
-    "year": 2011,
+    "year": 2012,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 3571
   },
   {
     "year": 2011,
@@ -593,27 +801,11 @@
   },
   {
     "year": 2011,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2011,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 325
-  },
-  {
-    "year": 2011,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2011,
@@ -624,12 +816,12 @@
     "quantity": 1193
   },
   {
-    "year": 2010,
+    "year": 2011,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 4234
   },
   {
     "year": 2010,
@@ -641,27 +833,11 @@
   },
   {
     "year": 2010,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2010,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 850
-  },
-  {
-    "year": 2010,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2010,
@@ -672,12 +848,12 @@
     "quantity": 866
   },
   {
-    "year": 2009,
+    "year": 2010,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 4258
   },
   {
     "year": 2009,
@@ -689,27 +865,11 @@
   },
   {
     "year": 2009,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2009,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 727
-  },
-  {
-    "year": 2009,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2009,
@@ -720,12 +880,12 @@
     "quantity": 437
   },
   {
-    "year": 2008,
+    "year": 2009,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 3999
   },
   {
     "year": 2008,
@@ -737,27 +897,11 @@
   },
   {
     "year": 2008,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2008,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 787
-  },
-  {
-    "year": 2008,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2008,
@@ -768,12 +912,12 @@
     "quantity": 0
   },
   {
-    "year": 2007,
+    "year": 2008,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 3645
   },
   {
     "year": 2007,
@@ -785,27 +929,11 @@
   },
   {
     "year": 2007,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2007,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 2002
-  },
-  {
-    "year": 2007,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2007,
@@ -816,12 +944,12 @@
     "quantity": 0
   },
   {
-    "year": 2006,
+    "year": 2007,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 2918
   },
   {
     "year": 2006,
@@ -833,27 +961,11 @@
   },
   {
     "year": 2006,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2006,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 1153
-  },
-  {
-    "year": 2006,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2006,
@@ -864,12 +976,12 @@
     "quantity": 0
   },
   {
-    "year": 2005,
+    "year": 2006,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 2333
   },
   {
     "year": 2005,
@@ -881,27 +993,11 @@
   },
   {
     "year": 2005,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2005,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 918
-  },
-  {
-    "year": 2005,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2005,
@@ -914,10 +1010,10 @@
   {
     "year": 2004,
     "type": "target",
-    "policy": "new_build",
+    "policy": "RAS",
     "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
+    "expenditure_type": "current",
+    "quantity": 505
   },
   {
     "year": 2004,
@@ -929,27 +1025,11 @@
   },
   {
     "year": 2004,
-    "type": "target",
-    "policy": "acquisition",
-    "domain": "social",
-    "expenditure_type": "capital",
-    "quantity": -1
-  },
-  {
-    "year": 2004,
     "type": "actual",
     "policy": "acquisition",
     "domain": "social",
     "expenditure_type": "capital",
     "quantity": 971
-  },
-  {
-    "year": 2004,
-    "type": "target",
-    "policy": "leasing",
-    "domain": "social",
-    "expenditure_type": "current",
-    "quantity": -1
   },
   {
     "year": 2004,
