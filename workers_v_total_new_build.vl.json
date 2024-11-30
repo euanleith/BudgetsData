@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
+  },
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/euanleith/BudgetsData/refs/heads/main/workers.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "timeUnit": "year",
+      "title": "Year",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "transform": [
+        {
+          "calculate": "'workers'", "as": "label"
+        }
+      ],
+      "title": "Construction Workers and New Build Over Time",
+      "encoding": {
+        "y": {
+          "field": "workers",
+          "type": "quantitative",
+          "axis": {
+            "title": "Construction Workers",
+            "grid": false
+          }
+        },
+        "stroke": {
+          "field": "label",
+          "legend": {
+            "title": "",
+          }
+        }
+      }
+    },
+    {
+      "mark": "line",
+      "transform": [
+        {
+          "filter": "datum.total_new_build > 0"
+        },
+        {
+          "calculate": "'total_new_build'", "as": "label"
+        }
+      ],
+      "encoding": {
+        "y": {
+          "field": "total_new_build",
+          "type": "quantitative",
+          "axis": {
+            "title": "New Build "
+          }
+        },
+        "stroke": {
+          "field": "label"
+        }
+      }
+    }
+  ],
+  "width": 500
+    
+}
